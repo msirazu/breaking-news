@@ -4,8 +4,8 @@ import Footer from '../components/Footer/Footer';
 
 const Root = () => {
     return (
-        <div>
-            <header>
+        <div className='mx-auto w-10/12'>
+            <header className='flex justify-center h-80 items-center'>
                 <Header/>
             </header>
             <main>
